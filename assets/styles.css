@@ -1,0 +1,741 @@
+*{
+    font-family: 'Poppins';
+    max-width: 1366px;
+    max-height: 100%;
+}
+
+body {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    margin-top: auto;
+    margin-bottom: auto;
+    color: #152C5B;
+    flex-grow: 2;
+}
+
+li {
+    margin-right: 15px;
+}
+
+.header {
+    display: flex;
+    padding-left: 50px;
+    padding-right: 50px;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid #E5E5E5;
+}
+
+.header div{
+    margin-right: 25px;
+}
+
+.header h1 {
+    color: #152C5B;
+    margin-left: 50px;
+}
+
+.stay {
+    color: #3252DF;
+}
+
+.firstlist {
+    color: #3252DF;
+}
+
+
+main .show__me {
+    display: flex;
+    padding-left: 50px;
+    padding-right: 50px;
+    width: max-content;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.forget__your {
+    position: relative;
+    margin-right: 160px;
+    margin-left: 60px;
+}
+
+.forget__your h2 {
+    font-size: 42px;
+    color: #152C5B;
+}
+
+.forget__your p {
+    color: #B0B0B0;
+}
+
+.forget__your button {
+    background-color: #3252DF;
+    color: white;
+    border: none;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    margin-top: 30px;
+    border-radius: 2px;
+}
+
+.travel {
+    position: absolute;
+    display: flex;
+    bottom: 0;
+    left: 0;
+}
+
+.travel div {
+    margin-right: 30px;
+}
+
+.travel span {
+    color: #152C5B;
+    font-weight: bold;
+}
+
+main .most__picked h3{
+    color:#152C5B;
+    font-size: 24px;
+    position: relative;
+    margin-left: 110px;
+    margin-top: 100px;
+    margin-bottom: 25px;
+    height: 36px;
+    font-weight: 500;
+}
+
+.flex__kedua{
+    position: relative;
+    display: flex;
+    margin-left: 110px;
+    height:550px
+}
+
+.finnn{
+    font-color: white;
+}
+
+.pink__bar{
+    position: absolute;
+    left: 130px;
+    top: 600px;
+}
+
+.pink__bar p{
+    top: -77px;
+    color: white;
+}
+
+.pink__bar span{
+    bottom: 15px;
+    left: 0px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.left__flex p{
+    position: relative;
+    bottom: 35px;
+    left: 45px;
+    font-weight: bold;
+    font-size: 18px;;
+    font-color: white;
+}
+
+.finnn p{
+    left: 0px
+}
+
+.gradasi__besar{
+    position: relative;
+    left: 0px;
+    bottom: 220px
+}
+
+.left__flex div{
+    color: #152C5B;
+    margin-top: -300px;
+    margin-left: 25px;
+}
+
+.left__flex div h4{
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 30px;
+    margin: 0;
+}
+
+.left__flex div p{
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 22px;  
+    margin-top: 40px;
+    margin-left: 0px;
+}
+
+.mid__flex{
+    margin-right: 50px;
+    margin-left: 50px;
+    flex-direction: column;
+    display: flex;
+}
+
+.mid__flex .atas__mid{
+    margin-bottom: 5px;
+}
+
+.pi__1{
+    position: absolute;
+    left: 591px;
+}
+
+.gr__1{
+    position: absolute;
+    left: 410px;
+}
+
+/* atas tengah */
+
+
+.rio p span{
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.rio p{
+    position:relative;
+    left: 90px;
+    bottom: 235px;
+    font-weight: 300;
+    color: white;
+    text-align: center;
+}
+
+.atas__mid div{
+    position: relative;
+    left: 30px;
+    bottom: 135px;
+    color: #152C5B;
+    margin: 0;
+}
+
+.nama__1 {
+    position: relative;
+    bottom: 160px;
+    left: 25px;
+    font-size: 15px;
+}
+
+.bawah__mid{
+    margin-top: -140px;
+}
+
+/* bawah tengah */
+
+.bawah__mid .rio p span{
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.bawah__mid .rio p{
+    position:relative;
+    left: 60px;
+    bottom: 85px;
+    font-weight: 300;
+    color: white;
+    text-align: center;
+}
+
+.bawah__mid div{
+    position: relative;
+    left: 30px;
+    bottom: 145px;
+    color: #152C5B;
+    margin: 0;
+}
+
+.bawah__mid div p{
+    position: relative;
+    bottom: 10px;
+    font-size: 15px;
+}
+
+/* kanan atas  */
+.right__flex{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.atas__right{
+    height: 225px;
+}
+
+.atas__right .rio p span{
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.atas__right .rio p{
+    position:relative;
+    left: 70px;
+    bottom: 90px;
+    font-weight: 300;
+    color: white;
+    text-align: center;
+}
+
+.atas__right div{
+    position: relative;
+    left: 30px;
+    bottom: 410px;
+    color: #152C5B;
+    margin: 0;
+}
+
+.atas__right div p{
+    position: relative;
+    bottom: 10px;
+    font-size: 15px;
+}
+
+.atas__right .gr__1{
+    position: relative;
+    left: 0px;
+    bottom: 220px;
+}
+
+.atas__right .pi__1{
+    position: relative;
+    bottom: 444px;
+    left: 181px;
+}
+
+/* bawah kanan */
+.bawah__right .rio p span{
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.bawah__right .rio p{
+    position:relative;
+    left: 70px;
+    bottom: 90px;
+    font-weight: 300;
+    color: white;
+    text-align: center;
+}
+
+.bawah__right div{
+    position: relative;
+    left: 30px;
+    bottom: 410px;
+    color: #152C5B;
+    margin: 0;
+}
+
+.bawah__right div p{
+    position: relative;
+    bottom: 10px;
+    font-size: 15px;
+}
+
+.bawah__right .gr__1{
+    position: relative;
+    left: 0px;
+    bottom: 220px;
+}
+
+.bawah__right .pi__1{
+    position: relative;
+    bottom: 444px;
+    left: 181px;
+}
+
+.right__flex{
+    margin-right: 100px;
+}
+
+.right__flex .atas__right{
+    margin-bottom: 25px;
+}
+
+/* RUMAH */
+
+.rumah{
+    position: relative;
+    margin-left:120px;
+}
+
+.rumah h3{
+    margin-left: 10px;
+}
+
+.rumah__taman{
+    display: flex;
+    flex-direction: row;
+}
+
+.rumah__taman .tabby{
+    margin-right: 45px;
+}
+
+.rumah__taman .anggana{
+    margin-right: 45px;
+}
+
+.rumah__taman .seattle{
+    margin-right: 45px;
+}
+
+.rumah__taman .pi__bar{
+    position:absolute;
+    left: 83px;
+}
+
+.pi__bar p{
+    position: relative;
+    bottom: 58px;
+    font-size: 18px;
+    color: white;
+    text-align: center;
+}
+
+.pi__bar p span{
+    font-weight: bold;
+}
+
+.judul__rumah{
+    display: flex;
+    flex-direction: row;
+    font-size: 20px;
+    font-weight: 500;
+    text-align: left;
+    height: 50px;
+    color: #152C5B;
+}
+
+.judul__rumah .j__tabby{
+    margin-right: 190px;
+}
+
+.judul__rumah .j__anggana{
+    margin-right: 215px;
+}
+
+.judul__rumah .j__seattle{
+    margin-right: 190px;
+}
+
+.lokasi__rumah{
+    display: flex;
+    flex-direction: row;
+    color: #B0B0B0;
+}
+
+.lokasi__rumah .l__tabby{
+    margin-right: 120px;
+}
+
+.lokasi__rumah .l__anggana{
+    margin-right: 175px;
+}
+
+.lokasi__rumah .l__seattle{
+    margin-right: 160px;;
+}
+
+/*  HOTEL */
+
+.hotel{
+    position: relative;
+    margin-left:120px;
+}
+
+.hotel h3{
+    margin-left: 10px;
+}
+
+.hotel__room{
+    display: flex;
+    flex-direction: row;
+}
+
+.hotel__room .green{
+    margin-right: 45px
+}
+
+.hotel__room .podo{
+    margin-right: 45px
+}
+
+.hotel__room .silver{
+    margin-right: 45px
+}
+
+.hotel__room .pi__bar{
+    position:absolute;
+    left: 1008px;
+}
+
+.pi__bar p{
+    position: relative;
+    bottom: 58px;
+    font-size: 18px;
+    color: white;
+    text-align: center;
+}
+
+.pi__bar p span{
+    font-weight: bold;
+}
+
+.judul__hotel{
+    display: flex;
+    flex-direction: row;
+    font-size: 20px;
+    font-weight: 500;
+    text-align: left;
+    height: 50px;
+    color: #152C5B;
+}
+
+.judul__hotel .j__green{
+    margin-right: 200px;
+}
+
+.judul__hotel .j__podo{
+    margin-right: 210px;
+}
+
+.judul__hotel .j__silver{
+    margin-right: 200px;
+}
+
+.lokasi__hotel{
+    display: flex;
+    flex-direction: row;
+    color: #B0B0B0;
+}
+
+.lokasi__hotel .l__green{
+    margin-right: 132px;
+}
+
+.lokasi__hotel .l__podo{
+    margin-right: 170px;
+}
+
+.lokasi__hotel .l__silver{
+    margin-right: 140px;;
+}
+
+/* Apartemen */
+
+.apartemen{
+    position: relative;
+    margin-left:120px;
+}
+
+.apartemen h3{
+    margin-left: 10px;
+}
+
+.apartement__room{
+    display: flex;
+    flex-direction: row;
+}
+
+.apartement__room .ps{
+    margin-right: 45px
+}
+
+.apartement__room .one{
+    margin-right: 45px
+}
+
+.apartement__room .minimal{
+    margin-right: 45px
+}
+
+.apartement__room .pi__bar{
+    position:absolute;
+    left: 699px;
+}
+
+.pi__bar p{
+    position: relative;
+    bottom: 58px;
+    font-size: 18px;
+    color: white;
+    text-align: center;
+}
+
+.pi__bar p span{
+    font-weight: bold;
+}
+
+.judul__apar{
+    display: flex;
+    flex-direction: row;
+    font-size: 20px;
+    font-weight: 500;
+    text-align: left;
+    height: 50px;
+    color: #152C5B;
+}
+
+.judul__apar .j__ps{
+    margin-right: 225px;
+}
+
+.judul__apar .j__one{
+    margin-right: 220px;
+}
+
+.judul__apar .j__minimal{
+    margin-right: 235px;
+}
+
+.lokasi__apar{
+    display: flex;
+    flex-direction: row;
+    color: #B0B0B0;
+}
+
+.lokasi__apar .l__ps{
+    margin-right: 175px;
+}
+
+.lokasi__apar .l__one{
+    margin-right: 160px;
+}
+
+.lokasi__apar .l__minimal{
+    margin-right: 180px;;
+}
+
+.family{
+    margin-top: 80px;
+    margin-left: 175px;
+    height: 600px;
+}
+
+.happy__family .gamb{
+    position: relative;
+    color: black;
+    transform: scaleX(-1);
+    margin-right: 50px;
+    border-radius: 10px;
+}
+
+.happy__family {
+    display: flex;
+}
+
+.h__family{
+    font-size: 24px;
+    font-weight: 500;
+    color: #152C5B;
+}
+
+.star{
+    display: flex;
+    padding-right: 2px;
+    justify-content: space-between;
+    padding-right:500px;
+}
+
+.quote{
+    font-size: 32px;
+    color: #152C5B;
+}
+
+.creator{
+    font-size: 18px;
+    color:#152C5B;
+}
+
+.family div button {
+    background-color: #3252DF;
+    color: white;
+    border: none;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    margin-top: 30px;
+    border-radius: 2px;
+    
+}
+
+/* FOOTER */
+
+hr{
+    border: 1px solid #B0B0B0;
+}
+.atas{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    margin-left: 110px;
+}
+
+.tebal{
+    margin-right: 70px;
+}
+
+.tebal h3{
+    font-size: 24px;
+    height:30px
+}
+
+.tebal h3 span{
+    color: #3252DF;
+}
+
+.tebal p{
+    color: #B0B0B0;
+    font-size: 18px;
+}
+
+.for__beg {
+    margin-right: 70px;
+}
+
+.for__beg p{
+    color: #B0B0B0;
+    font-size: 16px;
+}
+
+.exp__us{
+    margin-right: 50px;
+}
+
+.exp__us p{
+    color: #B0B0B0;
+    font-size: 16px;
+}
+
+.get_tou p{
+    color: #B0B0B0;
+    font-size: 16px;
+}
+
+.copyr h4{
+    justify-content: center;
+    margin-top: 50px;
+    margin-left: 500px;
+    font-size: 18px;
+    font-weight: 300;
+    color: #B0B0B0;
+}
